@@ -1,0 +1,44 @@
+###############
+
+# Bot Config
+
+###############
+
+
+Bot:
+  BotToken: "MTEyNzM0NTA3ODY4MDE3NDY3Mg.Gjv9UW.hQjSQJN7EST6l_6sG8HWP_MN-V6ofvAC3_pd-Q"
+  ClientID: "1127345078680174672"
+  Activity: "Test"
+  MongoDBURL: ""
+  muteCommandIdRole: '1122366957950341191'
+  ticketSupportRoleId: '1122366958789206026'
+  storeChannelId: '1122366975914541086'
+  forbiddenLinks:
+  - discord.io/
+  - https://
+  - http://
+  - www.
+  - youtube.com
+  - .cheap
+  - .fun
+  - .net
+  - .com
+  - .org
+  - .gg/
+  - www
+  - google.
+  
+Anti_Link_Options:
+  link_punishment: '' # Your options are | kick, ban, mute, or leave blank and it will just delete the message
+  allowed_roleID: ''
+  verbose: true # logs when a user sets off the anti-link and anti-spam
+  muteIdRole: '1122366957950341191'
+  announceStaffChannel: '1122366984391241738'
+
+
+Tickets:
+  ticketCategoryID: "1122366965990821910"
+  ticketStaffID: '1122366956754976809'
+  ticketBanCategoryID: '1122366965990821910'
+  ticketMinecraftCategoryID: '1122366967328817302'
+  ticketStoreCategoryID: '1127382647929323680'
